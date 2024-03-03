@@ -1,26 +1,63 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+A definição exata do problema e outros pontos relevantes a serem tratados no projeto estão descritos aqui. Eles foram levantados e produzidos usando as seguintes ferramentas e tecnicas: 
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+1. Entrevistas e Discussões com jogadores e desenvolvedores
+2. Documentação de Requisito
+3. Ferramentas de Modelagem Visual (draw.io)
+4. Ferramentas de Gerenciamento de Projetos (Github Projects)
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<table>
+<thead>
+  <tr>
+    <th>Persona 1</th>
+    <th colspan="2">Déssio Pinto Rosa</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><img src="./img/persona1.png" width="272" height="275"></td>
+    <td>● Idade: 22 anos.<br>● Ocupação: Universitário</td>
+    <td>● Joga com os amigos no final do horário da faculdade.</td>
+  </tr>
+  <tr>
+    <td>Motivação:
+      <br>&emsp;● Jogar com os amigos.
+      <br>&emsp;● Conhecer pessoas que também gostam de jogos no estilo roguelike.
+      <br>&emsp; ● Colecionar Skins em jogos.<br>
+    </td>
+    <td>Objetivo:<br>&emsp;● Divertir-se com seus amigos</td>
+    <td>Frustração:
+      <br>&emsp;● Tem medo de falar com mulheres, por isso se afunda em jogos e relacionamentos.
+    </td>
+  </tr>
+</tbody>
+</table>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+<table>
+<thead>
+  <tr>
+    <th>Persona 2</th>
+    <th colspan="2">Isadora Pinto Magalhães</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><img src="./img/persona2.png" width="272" height="275"></td>
+    <td>● Idade: 18 anos
+    <br>● Ocupação: Influenciadora digital</td>
+    <td>● Faz lives jogando com seus seguidores</td>
+  </tr>
+  <tr>
+    <td>Motivação:<br>&emsp;● Divertir-se jogando seu estilo de jogo favorito<br></td>
+    <td>Objetivo:<br>&emsp;● Achar um jogo que gere conteúdo para seus fãs</td>
+    <td>Frustração:<br>&emsp;● Não encontrou um jogo no estilo roguelike que a desafie</td>
+  </tr>
+</tbody>
+</table>
 
 ## Histórias de Usuários
 
@@ -77,32 +114,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID   | Descrição do Requisito                                                            | Prioridade |
+|------|-----------------------------------------------------------------------------------|------------|
+| RF-1 | Combate baseado em turnos.                                                        | ALTA       |
+| RF-2 | Permitir a evolução do player com itens conquistados.                             | ALTA       |
+| RF-3 | Novas habilidades devem ser liberadas gradualmente.                               | ALTA       |
+| RF-4 | Permitir evolução de atributos bases                                              | ALTA       |
+| RF-5 | Poder recomeçar uma masmorra assim que finalizada mantendo as cartas conquistadas | ALTA       |
+| RF-6 | Ter como ver suas conquistas                                                      | MÉDIA      |
+| RF-7 | Grimório com as cartas que já foram descobertas                                   | MÉDIA      |
+| RF-8 | Bestiário                                                                         | MÉDIA      |
+| RF-9 | Masmorras Completadas                                                             | MÉDIA      |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| ID    | Descrição do Requisito                                                                   | Prioridade |
+|-------|------------------------------------------------------------------------------------------|------------|
+| RNF-1 | O jogo deve estar disponível para dispositivos móveis                                    | ALTA       |
+| RNF-2 | O jogo deve estar disponível para plataformas web                                        | ALTA       |
+| RNF-3 | As informações relevantes dos jogadores precisam estar protegidas de acessos indevidos   | ALTA       |
+| RNF-4 | O codigo precisa ser criado para facilitar manuntenção e extensão futura                 | MEDIA      |
+| RNF-5 | A interface precisa expressar as regras do jogo de maneira intuitiva e facil de aprender | ALTA       |
+| RNF-6 | A aplicação deve responder os comandos em tempo real                                     | ALTA       |
 
 ## Restrições
 
@@ -152,22 +185,18 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
-
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+![Gráfico de Gantt](img/tabela-gerenciamento-tempo.png)
 
 ## Gerenciamento de Equipe
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![Simple Project Timeline](img/tabela-gerenciamento-equipe.png)
 
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+![Orçamento](img/tabela-gestao-orcamento.png)
