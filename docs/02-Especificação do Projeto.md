@@ -63,19 +63,12 @@ A definição exata do problema e outros pontos relevantes a serem tratados no p
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| ID   | PERSONA | FUNCIONALIDADE                                                                                                                                                                      | MOTIVO/VALOR                                                                                                                 |
+|------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| HU-1 |         | Como jogador iniciante, gostaria de poder acessar The Lost Cards em meu smartphone                                                                                                  | Para que possa jogar em qualquer lugar e a qualquer momento, mesmo quando estiver longe do computador.                       |
+| HU-2 |         | Como jogador, gostaria que a interface do aplicativo fosse intuitiva e responsiva                                                                                                   | Para que  possa desfrutar de uma experiência de jogo fluida e consistente, independentemente do dispositivo que está usando. |
+| HU-3 |         | Como jogador que está aprendendo as mecânicas do jogo, gostaria de ter acesso a tutoriais interativos no aplicativo.                                                                | Para que possa entender melhor as regras e estratégias de The Lost Cards e melhorar a habilidade como jogador.               |
+| HU-4 |         | Como jogador que gosta de jogar em diferentes dispositivos, gostaria que minhas progressões e conquistas fossem sincronizadas entre todas as plataformas suportadas pelo aplicativo | Para que eu possa continuar minha jornada em The Lost Cards sem perder o progresso.                                          |
 
 ## Modelagem do Processo de Negócio 
 
@@ -154,16 +147,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![diagrama de casos de uso](./img/casos-de-uso.drawio.png)
 
 # Matriz de Rastreabilidade
 
