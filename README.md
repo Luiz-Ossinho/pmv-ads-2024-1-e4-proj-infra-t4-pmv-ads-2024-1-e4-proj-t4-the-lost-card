@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# The Lost Cards
 
-`CURSO`
+`Análise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-`SEMESTRE`
+`2024/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+The Lost Cards é mais do que apenas um jogo de cartas single player - é uma jornada estratégica e emocionante que combina a cadência e a estratégia dos tradicionais jogos de cartas colecionáveis com um toque único: a construção do seu deck acontece durante a própria jornada. Seu objetivo? Proporcionar diversão e desafio a cada partida, enquanto cada nova carta conquistada molda e redefine sua estratégia. Em The Lost Cards, cada jogo é uma experiência única, onde a emoção e a surpresa se fundem para criar uma aventura cativante e inesquecível.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Adeilton Rodrigues Farias Junior
+* Carlos Alberto Mendonça Vasconselos
+* Gustavo Henrique de Jesus Almeida
+* Luiz Eduardo de Jesus Santana
+* Pedro Rafael da Cruz Almeida
 
 ## Orientador
 
-* Nome completo do professor 1
+* Pedro Alves de Oliveira
 
 ## Instruções de utilização
 
