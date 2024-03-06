@@ -71,10 +71,10 @@ A definição exata do problema e outros pontos relevantes a serem tratados no p
     <td><img src="./img/persona3.png" width="272" height="275"></td>
     <td>● Idade: 30 anos
     <br>● Ocupação: Arqueólogo e professor universitário</td>
-    <td>● Lucas é apaixonado por história e arqueologia. Ele passa horas lendo sobre civilizações antigas e explorando museus.</td>
+    <td>● Apaixonado por história e arqueologia. Ele passa horas lendo sobre civilizações antigas e explorando museus.</td>
   </tr>
   <tr>
-    <td>Motivação:<br>&emsp;● Lucas busca emoção e desafio. Ele quer experimentar a adrenalina de explorar masmorras virtuais, assim como faz nas escavações arqueológicas.<br></td>
+    <td>Motivação:<br>&emsp;● Busca emoção e desafio. Ele quer experimentar a adrenalina de explorar masmorras virtuais, assim como faz nas escavações arqueológicas.<br></td>
     <td>Objetivo:<br>&emsp;● Encontrar artefatos raros e desvendar os segredos das masmorras.</td>
     <td>Frustração:<br>&emsp;● Quando ele morre repetidamente nas masmorras, perdendo todo o progresso e os itens coletados.</td>
   </tr>
